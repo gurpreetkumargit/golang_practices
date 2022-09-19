@@ -1,23 +1,23 @@
 package main
 
-import (
-	"errors"
-	"fmt"
-)
+// import (
+// 	"errors"
+// 	"fmt"
+// )
 
 func main() {
-	result, err := returnError(true)
+	// 	result, err := returnError(true)
 
-	if err != nil {
-		fmt.Println(err)
-	} else {
-		fmt.Println(result)
-	}
-}
+	// 	if err != nil {
+	// 		fmt.Println(err)
+	// 	} else {
+	// 		fmt.Println(result)
+	// 	}
+	// }
 
-func returnError(returnError bool) (string, error) {
-	if returnError {
-		return "", errors.New("error here")
-	}
-	return "Random result", nil
+	// func returnError(returnError bool) (string, error) {
+	// 	if returnError {
+	// 		return "", errors.New("error here")
+	// 	}
+	// 	return "Random result", nil
 }
